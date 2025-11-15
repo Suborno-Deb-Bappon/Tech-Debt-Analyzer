@@ -140,7 +140,7 @@ Example Response:
 
 A visual snapshot of the tool’s prediction and Technical Debt Type classification:
 
-![API Output Screenshot](./assets/api_output_snapshot.png)
+![API Output Screenshot](./assets/api_output_snapshot.PNG)
 ---
 ## 🧩 Chrome Extension
 - What It Does
@@ -160,7 +160,7 @@ A visual snapshot of the tool’s prediction and Technical Debt Type classificat
 
 Here is how the **Detect Technical Debt** button look inside Stack Overflow:
 
-![Chrome Extension Screenshot](./assets/chrome_extension_snapshot.png)
+![Chrome Extension Screenshot](./assets/chrome_extension_snapshot.PNG)
 ---
 ## Installing the Extension
 
