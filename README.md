@@ -42,6 +42,7 @@ Tech-Debt-Analyzer includes:
     │ ├─ td_types.csv
     │ └─ output/
     │ └─ chroma/
+    ├─ assets/ 
     ├─ source_code.ipynb
     └─ .git/
 
