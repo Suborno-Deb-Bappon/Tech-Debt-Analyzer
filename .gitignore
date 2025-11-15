@@ -1,0 +1,25 @@
+# Model weights
+*.pt
+Tool/flask-api/deberta_codebert.pt
+
+# Tokenizer directories
+sm_deberta_codebert/
+Tool/flask-api/sm_deberta_codebert/
+Tool/flask-api/sm_deberta_codebert/**
+
+# Chroma / output
+Tool/flask-api/output/
+Tool/flask-api/output/**
+
+# Env files
+.env
+Tool/flask-api/.env
+
+# Usual Python/jupyter stuff
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+*.sqlite3

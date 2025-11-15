@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "DebtNetX: Stack Overflow Technical Debt Predictor",
+  "description": "Detects Technical Debt and classifies TD Type via OpenAI+Chroma RAG.",
+  "version": "1.3",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://stackoverflow.com/questions/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*",
+    "http://127.0.0.1:5000/*"
+  ]
+}
